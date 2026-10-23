@@ -1,0 +1,618 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090b10">
+
+    <meta name="description"
+          content="Portofolio Muhammad Rizki, mahasiswa Sistem Informasi yang tertarik pada pengembangan web dan teknologi informasi.">
+
+    <title>Muhammad Rizki | IT Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container navbar" aria-label="Navigasi utama">
+            <a href="#home" class="logo" aria-label="Muhammad Rizki - Beranda">
+                <img src="assets/logo.png" alt="Logo Muhammad Rizki" class="logo-image">
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-label="Buka menu"
+                    aria-expanded="false"
+                    aria-controls="navMenu">
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#skills" class="nav-link">Keahlian</a></li>
+                <li><a href="#projects" class="nav-link">Proyek</a></li>
+                <li><a href="#certificates" class="nav-link">Sertifikat</a></li>
+                <li><a href="#education" class="nav-link">Pendidikan</a></li>
+                <li><a href="#contact" class="nav-link nav-contact">Kontak ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Welcome to My Portofolio
+                    </div>
+
+                    <p class="eyebrow">HALO, SAYA MUHAMMAD RIZKI</p>
+
+                    <h1>
+                        Membangun solusi digital
+                        <span class="gradient-text">dengan teknologi.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Information Systems Student | Web & Backend Enthusiast
+
+Saya adalah mahasiswa D3 Sistem Informasi di Politeknik Negeri Padang yang berfokus pada pengembangan web dan backend. Saya tertarik membangun aplikasi yang tidak hanya fungsional, tetapi juga terstruktur, efisien, dan memberikan solusi nyata melalui teknologi.
+
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Lihat Proyek <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Hubungi Saya
+                        </a>
+
+                        <a href="assets/cv-muhammad-rizki.pdf"
+                           class="btn btn-secondary"
+                           download="CV-Muhammad-Rizki.pdf">
+                            Unduh CV <span aria-hidden="true">↓</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/Rizkiemhade"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                        <span class="social-divider">/</span>
+                        <a href="https://www.linkedin.com/in/muhammad-rizki-a87a09396"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            LinkedIn ↗
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="photo-glow"></div>
+
+                    <div class="photo-frame">
+                        <!-- Ganti foto-rizki.jpg dengan foto pribadi kamu -->
+                        <img
+                            src="assets/foto-rizki.jpg"
+                            alt="Foto profil Muhammad Rizki"
+                            class="profile-photo"
+                            id="profilePhoto"
+                        >
+
+                        <div class="photo-placeholder" id="photoPlaceholder">
+                            <div class="placeholder-icon">MR</div>
+                            <p>Foto Profil</p>
+                            <span>Tambahkan foto kamu di folder assets</span>
+                        </div>
+                    </div>
+                    <div class="floating-card floating-bottom">
+                        <span class="code-icon">&lt;/&gt;</span>
+                        <div>
+                            <strong>Backend Development</strong>
+                            <small>Building robust systems</small>
+                        </div>
+                    </div>
+
+                    <div class="visual-caption">
+                        <span class="caption-line"></span>
+                        <span>BERKEMBANG · BERKARYA · BERKOLABORASI</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator" aria-label="Scroll ke tentang saya">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section section-border" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">TENTANG SAYA</p>
+                    <h2>Kenali saya <span class="gradient-text">lebih dekat.</span></h2>
+                    <p class="section-description">
+                        Mengenal latar belakang, minat, dan tujuan saya
+                        dalam dunia teknologi informasi.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-copy reveal">
+                        <h3>Halo.</h3>
+
+                        <p>
+                            Saya Muhammad Rizki, mahasiswa D3 Sistem Informasi di Politeknik Negeri Padang, PSDKU Tanah Datar. Saya memiliki ketertarikan dalam bidang Web Development, khususnya dalam membangun web yang fungsional, terstruktur, dan bermanfaat bagi pengguna.
+                        </p>
+
+                        <p>
+                      Saya terus mengembangkan kemampuan dalam pemrograman web, pengelolaan basis data, serta integrasi API menggunakan berbagai teknologi seperti HTML, CSS, JavaScript, PHP, Laravel, dan Python. Saya juga memanfaatkan AI sebagai alat bantu untuk belajar, mengeksplorasi solusi, dan meningkatkan efisiensi dalam proses pengembangan aplikasi.
+                        </p>
+
+                      
+                        <a href="#contact" class="text-link">
+                            Mari berdiskusi <span>↗</span>
+                        </a>
+                    </div>
+
+                    <div class="profile-details reveal">
+                        <div class="detail-row">
+                            <span class="detail-label">Nama lengkap</span>
+                            <span class="detail-value">Muhammad Rizki</span>
+                        </div>
+
+                        <div class="detail-row">
+                            <span class="detail-label">Perguruan tinggi</span>
+                            <span class="detail-value">Politeknik Negeri Padang</span>
+                        </div>
+
+                        <div class="detail-row">
+                            <span class="detail-label">Program studi</span>
+                            <span class="detail-value">Sistem Informasi</span>
+                        </div>
+
+                        <div class="detail-row">
+                            <span class="detail-label">Fokus</span>
+                            <span class="detail-value">Web Development</span>
+                        </div>
+
+                        <div class="detail-row">
+                            <span class="detail-label">Status</span>
+                            <span class="detail-value">
+                                <span class="status-dot"></span> Terus belajar
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section section-border" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">KEAHLIAN</p>
+                    <h2>Teknologi yang <span class="gradient-text">saya pelajari.</span></h2>
+                    <p class="section-description">
+                        Teknologi dan bidang yang saya gunakan atau pelajari
+                        dalam proyek perkuliahan.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>Web Development</h3>
+                        <p>Membuat halaman website dan aplikasi berbasis web.</p>
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">{ }</div>
+                        <h3>Backend Development</h3>
+                        <p>Mempelajari logika aplikasi dan pengolahan data.</p>
+                        <div class="skill-tags">
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                            <span>Python</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon">▤</div>
+                        <h3>Database</h3>
+                        <p>Merancang struktur tabel dan mengelola data.</p>
+                        <div class="skill-tags">
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>SQLite</span>
+                        </div>
+                    </article>
+
+                </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section section-border" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">PROYEK PILIHAN</p>
+                    <h2>Belajar melalui <span class="gradient-text">proyek nyata.</span></h2>
+                    <p class="section-description">
+                        Beberapa contoh proyek yang dapat ditampilkan
+                        dalam portofolio.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">PROJECT 01</span>
+                            <span class="project-symbol">⌖</span>
+                        </div>
+
+                        <div class="project-preview map-preview">
+                            <img
+                                class="project-preview-image"
+                                src="assets/proyek-sig.jpg"
+                                alt="Tampilan proyek SIG Persebaran Sekolah"
+                            >
+                            <div class="map-grid">
+                                <span class="map-road road-one"></span>
+                                <span class="map-road road-two"></span>
+                                <span class="map-road road-three"></span>
+                                <span class="map-pin pin-one">●</span>
+                                <span class="map-pin pin-two">●</span>
+                                <span class="map-pin pin-three">●</span>
+                            </div>
+                            <span class="preview-label">SCHOOL MAPPING SYSTEM</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-category">Sistem Informasi Geografis</p>
+                            <h3>SIG Persebaran Sekolah</h3>
+                            <p>
+                                Konsep sistem informasi geografis berbasis web
+                                untuk menampilkan lokasi dan informasi sekolah
+                                di Kabupaten Tanah Datar.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Leaflet.js</span>
+                                <span>GeoJSON</span>
+                                <span>MySQL</span>
+                                <span>CodeIgniter 4</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                Tanya tentang proyek <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">PROJECT 02</span>
+                            <span class="project-symbol">▤</span>
+                        </div>
+
+                        <div class="project-preview library-preview">
+                            <img
+                                class="project-preview-image"
+                                src="assets/proyek-perpustakaan.jpg"
+                                alt="Tampilan aplikasi Perpustakaan Mini"
+                            >
+                            <div class="library-window">
+                                <div class="window-dots">● ● ●</div>
+                                <div class="library-title">Perpustakaan Mini</div>
+                                <div class="book-row">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="library-lines">
+                                    <i></i><i></i><i></i>
+                                </div>
+                            </div>
+                            <span class="preview-label">LIBRARY WEB APPLICATION</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-category">Aplikasi Web</p>
+                            <h3>Aplikasi Perpustakaan Mini</h3>
+                            <p>
+                                Contoh pengembangan aplikasi untuk mengelola
+                                informasi buku dan data perpustakaan melalui
+                                antarmuka web.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                Tanya tentang proyek <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">PROJECT 04</span>
+                            <span class="project-symbol">◈</span>
+                        </div>
+
+                        <div class="project-preview design-preview">
+                            <img
+                                class="project-preview-image"
+                                src="assets/proyek-uiux.jpg"
+                                alt="Tampilan prototipe antarmuka aplikasi"
+                            >
+                            <div class="design-window">
+                                <div class="design-sidebar"></div>
+                                <div class="design-main">
+                                    <div class="design-block"></div>
+                                    <div class="design-block small"></div>
+                                    <div class="design-cards">
+                                        <span></span><span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="preview-label">UI / UX DESIGN</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-category">UI/UX Design</p>
+                            <h3>Prototipe Antarmuka Aplikasi</h3>
+                            <p>
+                                Contoh perancangan antarmuka dan prototipe
+                                aplikasi untuk mempelajari alur pengguna
+                                serta penyajian informasi.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Figma</span>
+                                <span>UI Design</span>
+                                <span>Prototype</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                Tanya tentang proyek <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">PROJECT 04</span>
+                            <span class="project-symbol">◈</span>
+                        </div>
+
+                        <div class="project-preview design-preview">
+                            <img
+                                class="project-preview-image"
+                                src="assets/proyek-Omdb.jpg"
+                                alt="pencarian film menggunakan API OMDB"
+                            >
+                            <div class="design-window">
+                                <div class="design-sidebar"></div>
+                                <div class="design-main">
+                                    <div class="design-block"></div>
+                                    <div class="design-block small"></div>
+                                    <div class="design-cards">
+                                        <span></span><span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="preview-label">OMDB API</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-category">Web Development</p>
+                            <h3>Pencarian Film menggunakan API OMDB</h3>
+                            <p>
+                                Contoh pengembangan aplikasi web untuk
+                                mencari informasi film menggunakan API
+                                OMDB (Open Movie Database).
+                            </p>
+
+                            <div class="project-tags">
+                                  <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                Tanya tentang proyek <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-index">PROJECT 05</span>
+                            <span class="project-symbol">◈</span>
+                        </div>
+
+                        <div class="project-preview design-preview">
+                            <img
+                                class="project-preview-image"
+                                src="assets/proyek-wordpress.jpg"
+                                alt="Tampilan proyek website berbasis WordPress"
+                            >
+                            <div class="design-window">
+                                <div class="design-sidebar"></div>
+                                <div class="design-main">
+                                    <div class="design-block"></div>
+                                    <div class="design-block small"></div>
+                                    <div class="design-cards">
+                                        <span></span><span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="preview-label">WordPress</span>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-category">Web Development</p>
+                            <h3>Website Berbasis WordPress</h3>
+                            <p>
+                               "Fakta Dibalik Dunia" adalah sebuah situs web berbasis WordPress 
+                               yang dirancang dengan konsep blog informatif. Platform WordPress 
+                               dipilih karena kemampuannya dalam mengelola konten secara efisien,
+                                memungkinkan penulis untuk berbagi artikel, berita, dan informasi 
+                                menarik dengan mudah.
+
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>WordPress</span>
+                                <span>Responsive Design</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                Tanya tentang proyek <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATES -->
+        <section class="section section-border" id="certificates">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">SERTIFIKAT</p>
+                    <h2>Belajar dan <span class="gradient-text">berkembang.</span></h2>
+                    <p class="section-description">
+                        Kumpulan sertifikat pelatihan dan pencapaian saya.
+                    </p>
+                </div>
+
+                <div class="certificates-grid" id="certificatesGrid"></div>
+
+                <div class="certificates-empty reveal" id="certificatesEmpty">
+                    <span class="certificate-icon" aria-hidden="true">✦</span>
+                    <div>
+                        <h3>Belum ada sertifikat</h3>
+                        <p>
+                            Tambahkan file sertifikat ke folder <code>assets</code>
+                            dan daftarkan di <code>script.js</code>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section section-border" id="education">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">PENDIDIKAN</p>
+                    <h2>Perjalanan <span class="gradient-text">akademik.</span></h2>
+                </div>
+
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Pendidikan saat ini</span>
+                            <h3>Politeknik Negeri Padang</h3>
+                            <p class="timeline-subtitle">Program Studi Sistem Informasi</p>
+                            <p>
+                                Mempelajari pengembangan sistem informasi,
+                                basis data, pemrograman, analisis sistem,
+                                serta teknologi berbasis web.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section-border" id="contact">
+            <div class="container">
+                <div class="contact-panel reveal">
+                    <div class="contact-content">
+                        <p class="eyebrow">HUBUNGI SAYA</p>
+                        <h2>Mari mulai <span class="gradient-text">percakapan.</span></h2>
+                        <p>
+                            Saya terbuka untuk kesempatan magang IT,
+                            kolaborasi proyek, dan diskusi seputar teknologi.
+                            Jangan ragu untuk menghubungi saya.
+                        </p>
+
+                        <!-- Ganti dengan alamat email kamu -->
+                        <a href="mailto:rizkiemhade300804@gmail.com"
+                           class="btn btn-primary contact-email">
+                            <span>✉</span> rizkiemhade300804@gmail.com ↗
+                        </a>
+
+                        <!-- Ganti nomor di tautan dengan nomor WhatsApp format internasional tanpa tanda +. -->
+                        <a href="https://wa.me/6281276221495"
+                           class="btn btn-secondary contact-whatsapp"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <svg class="whatsapp-icon"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 24 24"
+                                 aria-hidden="true"
+                                 focusable="false">
+                                <path fill="currentColor" d="M12.04 2a9.85 9.85 0 0 0-8.48 14.86L2 22l5.29-1.39A9.94 9.94 0 0 0 12.04 22h.01A10 10 0 0 0 12.04 2Zm0 18.18a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.14.82.84-3.06-.2-.31a8.17 8.17 0 1 1 6.98 3.87Zm4.49-6.12c-.25-.13-1.48-.73-1.71-.81-.23-.08-.4-.13-.57.13-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.73-.15-.25-.02-.39.11-.52.11-.11.25-.3.38-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.57-1.37-.78-1.87-.2-.49-.41-.42-.57-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.61c.13.17 1.77 2.71 4.29 3.8.6.26 1.07.41 1.44.53.61.19 1.16.16 1.59.1.49-.07 1.48-.61 1.69-1.2.21-.59.21-1.1.15-1.2-.06-.11-.23-.17-.48-.3Z"/>
+                            </svg>
+                            WhatsApp ↗
+                        </a>
+                    </div>
+
+                    <div class="contact-side">
+                        <span class="contact-decoration">MR.</span>
+                        <p>Terima kasih telah mengunjungi portofolio saya.</p>
+
+                        <div class="contact-socials">
+                            <a href="https://github.com/Rizkiemhade"
+                               target="_blank"
+                               rel="noopener noreferrer">GitHub ↗</a>
+                            <a href="https://www.linkedin.com/in/muhammad-rizki-a87a09396"
+                               target="_blank"
+                               rel="noopener noreferrer">LinkedIn ↗</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo" aria-label="Muhammad Rizki - Beranda">
+                <img src="assets/logo.png" alt="Logo Muhammad Rizki" class="logo-image">
+            </a>
+            <p>© <span id="currentYear"></span> Dirancang dan dibuat oleh Muhammad Rizki</p>
+            <a href="#home" class="back-top">Kembali ke atas ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
